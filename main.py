@@ -27,10 +27,10 @@ import model
 
 mymodel = run_training()
 
-trainX_acc, trainX_gyro, trainy, testX_acc, testX_gyro, testy = load_dataset() #ready to go into rnn
-ynew = model.predict([testX_acc,testX_gyro])
-print(ynew[0])
-print(testy[0])
+# trainX_acc, trainX_gyro, trainy, testX_acc, testX_gyro, testy = load_dataset() #ready to go into rnn
+# ynew = model.predict([testX_acc,testX_gyro])
+# print(ynew[0])
+# print(testy[0])
 
-print(ynew[7])
-print(testy[7])
+# print(ynew[7])
+# print(testy[7])
